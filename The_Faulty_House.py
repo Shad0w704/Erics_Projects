@@ -1,4 +1,4 @@
-# This is a game where the user has to react accordingly to issues in the house. Last as long as possible.
+# This is a game where the user has to react accordingly to issues in the house. 20 successes to win!
 
 from random import randint
 from threading import Event, Thread
@@ -75,3 +75,4 @@ while True:
     if successes == 21:
         print("21 Successes in a row. YOU WIN!")
         break
+
